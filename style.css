@@ -1,0 +1,21 @@
+body
+{
+ font-size: x-large;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container
+{
+    display: grid;
+    place-items: center;
+    background-color: cornflowerblue;
+    height: 100vh;
+}
+
+#width
+{
+    position: fixed;
+    top: 60%;
+    left: 50%;
+
+}
