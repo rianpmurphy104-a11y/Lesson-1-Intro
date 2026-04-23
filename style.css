@@ -12,10 +12,43 @@ body
     height: 100vh;
 }
 
-#width
+#width 
 {
     position: fixed;
     top: 60%;
     left: 50%;
+    background-color: darkcyan;
+    transform: translateX(-50%);
+}
+
+@media screen and (min-width: 576px) 
+{
+   .container  {
+    background-color: aquamarine;
+   }
+
+}
+
+@media screen and (min-width: 768px) 
+{
+   .container  {
+    background-color: aqua;
+   }
+
+}
+
+@media screen and (min-width: 992px) 
+{
+   .container  {
+    background-color: blue;
+   }
+
+}
+
+@media screen and (min-width: 1200px) 
+{
+   .container  {
+    background-color: rgba(0, 255, 13, 0.523);
+   }
 
 }
